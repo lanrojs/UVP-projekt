@@ -1,7 +1,7 @@
 # UVP-projekt
 Projektna naloga za Uvod v Programiranje 
 
-V okviru projektne naloge bom zajel podatke o vseh zabeleženih šahovskih partijah s spletne strani www.chessgames.com. 
+V okviru projektne naloge bom zajel podatke o vseh zabeleženih šahovskih partijah v zadnjih petih letih s spletne strani www.chessgames.com. 
 
 ## Podatki, ki jih potrebujem za posamezno igro:
 - Imeni obeh šahistov,
@@ -24,3 +24,5 @@ V datoteki htmlregularni.py se nahaja koda za zajem podatkov s spletne strani in
 V datoteki json.py se nahaja koda, ki rahlo popravi zajete podatke in koda, ki pretvori JSON datoteko v CSV.
 
 V datoteki partije.csv se nahajajo podatki: Ime belega, ime črnega, izid, število potez, leto partije, otvoritev. 
+
+V datoteki analizapodatkov.ipynb so analizirani vsi zajeti podatki, obravnavane hipoteze, grafi. 
